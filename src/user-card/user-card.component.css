@@ -1,0 +1,54 @@
+.close-button {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.title {
+    display: inline-block;
+    width: 115px;
+    color: #777;
+}
+
+mat-list-item span {
+    font-size: 14px;
+}
+
+.main-info,
+.location-info,
+.company-info {
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.main-info {
+    background-color: #eee;
+}
+.location-info {
+    background-color: #fff4c3;
+}
+.company-info {
+    background-color: #dceeff;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+}
+
+p .mat-icon {
+    margin-right: 8px;
+}
+
+.location-title {
+    background-color: #ffe46e;
+}
+
+.company-title {
+    background-color: #b4dbff;
+}

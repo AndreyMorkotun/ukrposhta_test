@@ -1,0 +1,78 @@
+<mat-icon mat-dialog-close class="close-button">close</mat-icon>
+<h1 mat-dialog-title>{{ data.name }}</h1>
+<div mat-dialog-content>
+    <mat-list role="list" class="main-info">
+        <mat-list-item role="listitem">
+            <span class="title">Username</span>
+            <span>{{ data.username }}</span>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item role="listitem">
+            <span class="title">Email</span>
+            <span>{{ data.email }}</span>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item role="listitem">
+            <span class="title">Phone</span>
+            <span>{{ data.phone }}</span>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item role="listitem">
+            <span class="title">Website</span>
+            <span>{{ data.website }}</span>
+        </mat-list-item>
+    </mat-list>
+
+    <p class="location-title">
+        <mat-icon>location_on</mat-icon>
+        Address
+    </p>
+    <mat-list role="list" class="location-info">
+        <mat-list-item role="listitem">
+            <span class="title">Street</span>
+            <span>{{ data.address.street }}</span>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item role="listitem">
+            <span class="title">Suite</span>
+            <span>{{ data.address.suite }}</span>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item role="listitem">
+            <span class="title">City</span>
+            <span>{{ data.address.city }}</span>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item role="listitem">
+            <span class="title">Zip Code</span>
+            <span>{{ data.address.zipcode }}</span>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item role="listitem">
+            <span class="title">Geo</span>
+            <span>{{ data.address.geo.lat }} {{ data.address.geo.lng }}</span>
+        </mat-list-item>
+    </mat-list>
+
+    <p class="company-title">
+        <mat-icon>account_balance_wallet</mat-icon>
+        Company
+    </p>
+    <mat-list role="list" class="company-info">
+        <mat-list-item role="listitem">
+            <span class="title">Name</span>
+            <span>{{ data.company.name }}</span>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item role="listitem">
+            <span class="title">Catch Phrase</span>
+            <span>{{ data.company.catchPhrase }}</span>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item role="listitem">
+            <span class="title">Balance Sheet</span>
+            <span>{{ data.company.bs }}</span>
+        </mat-list-item>
+    </mat-list>
+     
+</div>

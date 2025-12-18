@@ -1,0 +1,17 @@
+
+
+.mdc-button.mat-mdc-outlined-button.details-button {
+    border-radius: 5px;
+    color: #333;
+    border-color: #aaa;
+    font-weight: normal;
+    flex-direction: row-reverse;
+}
+
+.mat-icon {
+    margin: 0 -5px 0 8px !important;
+}
+
+.mat-mdc-form-field {
+    display: flex;
+}
