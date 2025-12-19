@@ -22,6 +22,7 @@ header {
   flex-direction: row;
   align-items: center;
   font-size: 28px;
+  white-space: nowrap;
 }
 
 .logo svg {
@@ -68,5 +69,15 @@ header {
     width: 35px;
     height: 35px;
     margin-right: 10px;
+  }
+
+  .info p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 310px) {
+  .info {
+    display: none;
   }
 }

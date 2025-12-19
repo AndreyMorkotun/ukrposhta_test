@@ -1,4 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
-
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+mat-form-field .mdc-line-ripple::before {
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    .mat-mdc-form-field-bottom-align {
+        height: 0;
+        background-color: rgb(49, 168, 128);
+    }
+}
