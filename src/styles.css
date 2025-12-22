@@ -1,8 +1,14 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+ /* Input */
 mat-form-field .mdc-line-ripple::before {
     border: 0;
+}
+
+/*  */
+app-user-card .mat-expansion-panel-body {
+    padding: 0;
 }
 
 @media (max-width: 768px) {

@@ -16,39 +16,32 @@ mat-list-item span {
     font-size: 14px;
 }
 
-.main-info,
-.location-info,
-.company-info {
+.main-info {
     padding: 0;
+    margin-bottom: 16px;
+    background-color: #eee;
+}
+
+/* Expansion Panel */
+.mat-expansion-panel:not([class*=mat-elevation-z]) {
+    box-shadow: none;
+    background-color: #eee;
+    border-radius: 0;
+}
+
+.mat-expansion-panel:not(:last-child) {
     margin-bottom: 16px;
 }
 
-.main-info {
-    background-color: #eee;
-}
-.location-info {
-    background-color: #fff4c3;
-}
-.company-info {
-    background-color: #dceeff;
+.mat-expansion-panel-header {
+    background: none !important;
+    padding: 0 16px 0 11px;
 }
 
-p {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 10px;
-    font-size: 18px;
-}
-
-p .mat-icon {
+.mat-expansion-panel-header .mat-icon {
     margin-right: 8px;
 }
 
-.location-title {
-    background-color: #ffe46e;
-}
-
-.company-title {
-    background-color: #b4dbff;
+.mat-expansion-panel mat-list {
+    margin: 0;
 }
